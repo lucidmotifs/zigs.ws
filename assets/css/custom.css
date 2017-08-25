@@ -91,7 +91,7 @@
   background-repeat: repeat;
   border-radius:0;
   z-index: 5;
-  padding:50px;
+  padding:20px;
 }
 
 #feature-section:after {
@@ -103,10 +103,10 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.8;
-  /*background-image: url("../../assets/img/custom/backgrounds/man_vaping.jpg");
-  background-position:0px 50%;
-  background-repeat:no-repeat;*/
+  opacity: 0.2;
+  background-image: url("../../assets/img/custom/smokeclouds/blueish-right.png");
+  background-position:0px 0px;
+  background-repeat:no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -116,18 +116,22 @@
 
 /* company section */
 
-#company-descr {
+#company-descr > div {
   display: block;
   width: 100%;
   height: 100%;
   z-index: 1;
   opacity: 0.8;
+  background-color: rgba(0, 0, 0, 1.0);
+  color:#FFFFFF;
 }
 
 #company-descr .cloud-wrapper {
-  position:absolute;
-  bottom:0;
-  left:20%;
+  position:relative;
+  height: 0;
+  float:left;
+  bottom:50px;
+  left:-200px;
   opacity: 0.2;
   z-index: 1;
 }
@@ -135,6 +139,17 @@
 #feature-section {
   opacity: 1.0;
 
+}
+
+/** Product Display section **/
+
+#products-outline > div, #feedback > div {
+  z-index: 1;
+  opacity: 0.8;
+  background-image: url("../../assets/img/blurred-black-cover.jpeg");
+  background-color: rgba(10, 10, 10, 1.0);
+  background-repeat: repeat;
+  color:#cecece;
 }
 
 .c-thru {

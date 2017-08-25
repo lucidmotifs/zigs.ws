@@ -26,9 +26,7 @@ $(document).ready( function(){
     $("#web-feature").load("templates/feature.html");
     $("#products-outline").load("templates/products_section.html");
 
-    var e = $('<section></section>').load("templates/feedback.html");
-    // place the new element after 'products outline' section
-    $("#products-outline").after(e);
+    $('#feedback').load("templates/feedback.html");
 
     $("#footer").load("templates/footer.html");
 
