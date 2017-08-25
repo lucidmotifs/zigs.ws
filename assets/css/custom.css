@@ -71,17 +71,18 @@
 
 /* Section and Features art */
 #page-background {
-  background-image: url("../../assets/img/custom/backgrounds/rotated-bg.jpg");
+  background-image: url("../../assets/img/custom/backgrounds/bg-tile.png");
   background-color: rgba(255, 255, 255, 0.1);
-  background-position: 100px 80px;
-  background-repeat: no-repeat;
+  /*background-position:120px 40px;*/
+  background-repeat: repeat;
   float:right;
+  text-align:right;
   opacity: 0.2;
   position: absolute;
-  top:560px; left:0;
+  top:600px; right:0px;
   width: 100%;
   min-height:2000px;
-  z-index: 0;
+  z-index: 1;
 }
 
 #welcome-message {
@@ -97,15 +98,15 @@
   content:' ';
   display: block;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
   opacity: 0.8;
-  background-image: url("../../assets/img/custom/backgrounds/man_vaping.jpg");
+  /*background-image: url("../../assets/img/custom/backgrounds/man_vaping.jpg");
   background-position:0px 50%;
-  background-repeat:no-repeat;
+  background-repeat:no-repeat;*/
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
