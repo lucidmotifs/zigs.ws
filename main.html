@@ -13,8 +13,17 @@
 
   <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
 	<link href="assets/css/gsdk.css" rel="stylesheet" />
-  <link href="assets/css/demo.css" rel="stylesheet" />
 	<link href="assets/css/presentation.css" rel="stylesheet" />
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
+
+	<!-- jQuery is required -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
 
 	<!-- custom stuff -->
 	<link href="assets/css/custom.css" rel="stylesheet" />
@@ -24,24 +33,29 @@
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css' />
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
 	<style>
-		div#navbar-full, ul.nav, div#navbar {
-			z-index: 5;
-		}
+	h1, h2, h3, h4, h5, h6 {
+		font-family:"Helvetica Neue";
+		font-weight: 200;
+	}
 
-		.parallax-image {
-			max-height: 600px;
-		}
+	div#navbar-full, ul.nav, div#navbar {
+		z-index: 5;
+	}
 
-		.section-feature {
-			padding-bottom: 40px;
-		}
+	.parallax-image {
+		max-height: 600px;
+	}
 
-		footer {
-			background-color: #DDDDDD;
-			background-attachment: fixed;
-			position: relative;
-			padding:50px 0;
-		}
+	.section-feature {
+		padding-bottom: 40px;
+	}
+
+	footer {
+		background-color: #DDDDDD;
+		background-attachment: fixed;
+		position: relative;
+		padding:50px 0;
+	}
 	</style>
 </head>
 
@@ -69,7 +83,7 @@
         <h3 class="motivation">Our things are good and twang</h3>
     </div>
 
-		<section id="welcome-message">
+		<section id="welcome-message" style="display:none;">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<h1 class="text-center">
@@ -88,14 +102,14 @@
 
 		<section id="company-descr"></section>
 
-		<section id="products-outline"></section>
-
 		<section id="web-feature"></section>
+
+		<section id="products-outline"></section>
 
 		<section id="feedback"></section>
 
 		<section id="footer"></section>
-		
+
 	</div>
 </body>
 
@@ -109,4 +123,5 @@
 <script src="assets/js/get-shit-done.js"></script>
 
 <script src="assets/js/custom.js"></script>
+
 </html>
